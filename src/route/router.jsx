@@ -506,11 +506,11 @@ export const router = createBrowserRouter([
     ),
     children: [
       { path: "/applications/chat", element: <AppsChat /> },
-      { path: "/applications/email", element: <AppsEmail /> },
-      { path: "/applications/tasks", element: <AppsTasks /> },
-      { path: "/applications/notes", element: <AppsNotes /> },
-      { path: "/applications/calender", element: <AppsCalender /> },
-      { path: "/applications/storage", element: <AppsStorage /> },
+      // { path: "email", element: <AppsEmail /> },
+      // { path: "tasks", element: <AppsTasks /> },
+      // { path: "notes", element: <AppsNotes /> },
+      // { path: "calender", element: <AppsCalender /> },
+      // { path: "storage", element: <AppsStorage /> },
     ],
   },
   {
